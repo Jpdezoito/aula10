@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body{
+  background-color: bisque;
+}
+
+.nu-01{
+  background-color: rgb(145, 137, 137);
+  display: flex;
+  justify-content: space-around; 
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Secular One', sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  display: inline-flex;
+  list-style-type: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+nav ul li a:hover{
+  color: rgb(185, 66, 19);
+}
+
+h2{ 
+  margin: 30px;
+  text-align: center;
+}
+.quadrado{
+  display: flex;
+justify-content: center;
+}
+
+.quadrado div {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    min-height: 500px;
+    vertical-align: top;
+    padding: 50px 0;
+    margin: 0 2%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid   #000 2px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.quadrado div:hover{
+  transform: scale(1.1);
+}
+h3{
+  margin-bottom: 30px;
+}
+.quadrado-01{
+  background-color: rgb(145, 137, 137);
+  color: rgb(0, 0, 0);
+  
+  
+}
+.quadrado{
+  color: black;
+}
+.quadrado div img{
+  object-fit: cover;
+  width: 100%;
+  height: 175px;
+}
+#nu-01{
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Secular One', sans-serif;
+}
+.quadrado-02{
+  background-color: rgb(145, 137, 137);
+  color: rgb(0, 0, 0);
+}
+.quadrado-03{
+  background-color: rgb(145, 137, 137);
+  color: rgb(0, 0, 0);
+}
+#video-01{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+#video-02{
+  display: flex;
+  justify-content: center;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Secular One', sans-serif;  
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(145, 137, 137);
+  padding: 15px;
+  
+}
+footer img{
+  gap: 90px;
+  padding: 10px;
+}
+.img :hover{
+  height: 80px;
+}
